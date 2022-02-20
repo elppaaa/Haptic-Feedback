@@ -11,6 +11,8 @@
 		4843D99727C26A170064BFD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843D99627C26A170064BFD6 /* ContentView.swift */; };
 		4843D99927C26A1A0064BFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4843D99827C26A1A0064BFD6 /* Assets.xcassets */; };
 		4843D99C27C26A1A0064BFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4843D99B27C26A1A0064BFD6 /* Preview Assets.xcassets */; };
+		4843D9A327C26D370064BFD6 /* ImpactFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843D9A227C26D370064BFD6 /* ImpactFeedbackStyle.swift */; };
+		4843D9A527C26E140064BFD6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843D9A427C26E140064BFD6 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4843D99627C26A170064BFD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4843D99827C26A1A0064BFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4843D99B27C26A1A0064BFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4843D9A227C26D370064BFD6 /* ImpactFeedbackStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactFeedbackStyle.swift; sourceTree = "<group>"; };
+		4843D9A427C26E140064BFD6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				4843D99427C26A170064BFD6 /* Haptic_FeedbackApp.swift */,
 				4843D99627C26A170064BFD6 /* ContentView.swift */,
+				4843D9A227C26D370064BFD6 /* ImpactFeedbackStyle.swift */,
+				4843D9A427C26E140064BFD6 /* ViewModel.swift */,
 				4843D99827C26A1A0064BFD6 /* Assets.xcassets */,
 				4843D99A27C26A1A0064BFD6 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4843D9A327C26D370064BFD6 /* ImpactFeedbackStyle.swift in Sources */,
 				4843D99727C26A170064BFD6 /* ContentView.swift in Sources */,
+				4843D9A527C26E140064BFD6 /* ViewModel.swift in Sources */,
 				4843D99527C26A170064BFD6 /* Haptic_FeedbackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +210,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -255,6 +264,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
